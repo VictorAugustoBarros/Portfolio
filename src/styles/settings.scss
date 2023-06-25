@@ -1,0 +1,39 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+html {
+  background-image: url("src/assets/background2.jpg");
+  background-repeat: repeat-x;
+}
+
+@font-face {
+  font-family: "custom";
+  src: url("src/assets/Brave.ttf");
+}
+
+@font-face {
+  font-family: "GlitchGoblin";
+  src: url("src/assets/GlitchGoblin.ttf");
+}
+
+.justify-text {
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 20px;
+}
+
+.font-custom {
+  font-family: "custom", sans-serif;
+}
+
+.font-custom-goblin {
+  font-family: "GlitchGoblin", sans-serif;
+}
