@@ -1,30 +1,22 @@
 <template>
-  <NavBar />
+  <FirstSection />
 
-  <div style="display: block;">
-
-    <div style="display: block;">
-      <v-row>
-        <FirstSection />
-      </v-row>
-    </div>
-
-    <div style="display: block;">
-      <SecondSection />
-    </div>
-
+  <div id="second-section">
+    <h1 style="color: white">Teste</h1>
   </div>
+
+  <!-- <div style="display: block;">
+    <SecondSection />
+  </div> -->
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue"
 import FirstSection from "@/components/FirstSection.vue"
 import SecondSection from "@/components/SecondSection.vue"
 
 export default {
   name: 'HomePage',
   components: {
-    NavBar,
     FirstSection,
     SecondSection
   }
